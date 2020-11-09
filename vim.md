@@ -25,4 +25,7 @@ e: Keep skipping forward to end of each word
 0: Beginning of line
 $: end of line
 f<char>, F<char>, t<char>, T<char>
+J: 
+Super useful command. Join the next line to current line with a space in between. Especially useful to convert functions written over multiple lines to inline functions. 
+
 
