@@ -1,6 +1,8 @@
 # Vim
 ## What can I say XD
 
+Note: Find my .vimrc in this repository. I will continuously keep updating it. 
+
 I think the part I like (and should exploit) is the fact that you can be wherever you are in your file, but to go to another place, there can be absolute commands. 
 
 For example (cursor = C)
