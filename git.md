@@ -25,6 +25,12 @@ The repository you want to add as a submodule must first already exist as a git 
 
 When a submodule is added to a git repository, it only adds a reference to the actual git repo. If you clone the parent repository, however, it is like attempting to clone all its submodules as well, so all of them get cloned too. 
 
+To remove a submodule:
+```
+git rm the_submodule
+rm -rf .git/modules/the_submodule
+```
+
 Question: So, I can have submodule-specific branches, as well as branches for the repository, how do these things play with each other?
 
 ```
