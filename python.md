@@ -2,11 +2,11 @@
 
 ## Relative Imports in Python
 
-Package = directory with an __init__.py
+Package = directory with an `__init__.py`
 
 Within a package you have a full directory structure and imports can be done as `Import A.B.C` etc (dot separated)
 
-Module is a single python file. Packages can be imported as a whole and so can modules. (The __init__.py allows this, I believe)
+Module is a single python file. Packages can be imported as a whole and so can modules. (The `__init__.py` allows this, I believe)
 
 Very good explanation to problem: `https://stackoverflow.com/a/28154841/5391777`
 
