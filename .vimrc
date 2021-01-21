@@ -12,6 +12,8 @@ set lbr
 set display+=lastline
 set ignorecase
 set smartcase
+set clipboard=unnamedplus
+set encoding=utf8
 
 "set cursorline
 "set cursorcolumn
@@ -41,6 +43,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'preservim/nerdtree'
 Plug 'tibabit/vim-templates'
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
@@ -52,4 +55,7 @@ let g:cpp_experimental_template_highlight = 1
 
 " Nerdtree options
 map <F2> :NERDTreeToggle<CR>
+
+" Latex options
+let g:livepreview_previewer = 'okular'
 
