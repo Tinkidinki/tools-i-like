@@ -1,0 +1,13 @@
+\documentclass{article}
+\date{}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{layout}
+
+\setlength{\voffset}{0in}
+\setlength{\headsep}{5pt}
+
+\title{The Beginning of Brilliant Banter}
+\begin{document}
+\maketitle
+
+\end{document}

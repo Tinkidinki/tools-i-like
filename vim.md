@@ -34,4 +34,10 @@ Commands I should start using:
 - f<char>, F<char>, t<char>, T<char>
 - J: Super useful command. Join the next line to current line with a space in between. Especially useful to convert functions written over multiple lines to inline functions. 
 
+## Vim Plugins
+- First of all, the plugin manager of vim (vim-plug) that integrates directly into the .vimrc is the coolest thing ever. That is the most portable configuration settings I have seen. 
+
+### vim-templates
+Find (most) of my templates in the templates repository. 
+
 
