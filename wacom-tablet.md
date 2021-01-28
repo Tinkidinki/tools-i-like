@@ -19,4 +19,7 @@ xsetwacom --set "Wacom One by Wacom M Pen stylus" Button +2 "key ctrl" "key shif
 
 ```
 
+## Monitor Configuration
+Often, it is convenient to map the whole wacom tablet to one monitor. The two scripts in this directory: `.wacom_primary` and `.wacom_secondary` map the tablet to the primary and secondary monitor respectively. They have been mapped to the shortcuts `ALT-SHIT-Z` and `ALT-SHIFT-X` in the i3 config file. 
+
 
