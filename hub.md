@@ -14,3 +14,5 @@ git push -u origin HEAD
 ```
 There's a bunch of other things if I ever get into contributing to open source listed [here](https://hub.github.com/)
 
+HUB currently does not directly work with password, and one needs to generate a token for password:
+See [this link](https://github.com/github/hub/issues/2655#issuecomment-735836048)
