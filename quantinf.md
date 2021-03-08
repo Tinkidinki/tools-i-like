@@ -7,4 +7,4 @@ It was written by Dr. Qubit, or Tony Cubitt, and can be obtained from [here](htt
 ## Important Issue:
 There is a function called `flip.m` in the library. This interferes with a MATLAB library function `flip.m`, and this interference somehow results in legends not showing up on plots in MATLAB. 
 
-I have changed the function `flip.m` to `spin_flip.m`, and also all the corresponding calls to this function to the same name.
+I have changed the function `flip.m` to `spin_flip.m`, and also all the corresponding calls to this function to the same name in my installations. 
