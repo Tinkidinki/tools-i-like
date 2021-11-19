@@ -1,0 +1,20 @@
+import numpy as np
+import matplotlib
+
+import matplotlib.pyplot as plt
+from math import log2
+
+plt.rcParams['font.family'] = "Times New Roman"
+
+x_vals = np.linspace(0, 1, 100)
+y_vals = [-(i*log2(i) + (1-i)*log2(1-i)) for i in x_vals[1:-1]] 
+y_vals = [0] + y_vals + [0]
+
+
+fig, ax = plt.subplots()
+ax.plot(x_vals, y_vals)
+
+ax.set_xlabel('p', fontsize=20)
+ax.set_ylabel('H(p)', fontsize=20)
+
+plt.show()
